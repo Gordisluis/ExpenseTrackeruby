@@ -1,15 +1,13 @@
 <%# partial %>
 
 <!-- Image and text -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
     <%# icon from https://www.freepik.com/ %>
-    <%# <img src="https://raw.githubusercontent.com/adnjoo/budget-app-ror/main/app/assets/images/budget.png"
-     width="30" height="30" class="mx-2" alt=""> %>
+    <a href='/'>
+    <img src="https://raw.githubusercontent.com/adnjoo/budget-app-ror/main/app/assets/images/budget.png"
+     width="30" height="30" class="mx-2" alt="">
+    </a>
 
-    <%= link_to 'ExpenseTracker',
-    root_path,
-    class:"navbar-brand mx-3"
-    %>
 
     <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -17,7 +15,9 @@
 
     <div class="collapse navbar-collapse mx-3" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-
+      <li class="nav-item active">
+      <%= link_to 'Home', root_path, class:"nav-link" %>
+      </li>
       <li class="nav-item">
         <%= link_to "Expenses", expenses_path, class:"nav-link" %>
       </li>
