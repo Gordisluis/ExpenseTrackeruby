@@ -2,7 +2,6 @@
 
 <!-- Image and text -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-
     <%# icon from https://www.freepik.com/ %>
     <img src="https://raw.githubusercontent.com/adnjoo/budget-app-ror/main/app/assets/images/budget.png"
      width="30" height="30" class="mx-2" alt="">
@@ -11,5 +10,19 @@
     root_path,
     class:"navbar-brand"
     %>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <%= link_to "Expenses", expenses_path, class:"nav-link" %>
+      </li>
+
+    </ul>
+  </div>
 
 </nav>
