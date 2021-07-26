@@ -1,9 +1,14 @@
 <p id="notice"><%= notice %></p>
 
+<%=
+x = Expense.sum(:expense)
+puts x
+%>
+
 <h1>Expenses</h1>
 
-<table class='table'>
-  <thead>
+<table class='table table-striped'>
+  <thead class='thead-light'>
     <tr>
       <th>Date</th>
       <th>Category</th>
@@ -19,12 +24,22 @@
         <td><%= expense.date %></td>
         <td><%= expense.category %></td>
         <td><%= expense.detail %></td>
-        <td><%= expense.expense %></td>
+        <td>$ <%= expense.expense %></td>
         <td><%= link_to 'Show', expense %></td>
         <td><%= link_to 'Edit', edit_expense_path(expense) %></td>
         <td><%= link_to 'Destroy', expense, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
+    <%# last row %>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>total expenses: </td>
+        <td>$ <%= x %></td>
+        <td><%= %></td>
+        <td><%=  %></td>
+        <td><%=  %></td>
+    </tr>
   </tbody>
 </table>
 
