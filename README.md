@@ -1,6 +1,6 @@
 ## ExpenseTracker
 
-<img src='./scrn.png' width='250>
+<img src='./scrn1.png' width='250>
 
 ## Tech stack
 
