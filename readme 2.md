@@ -19,6 +19,20 @@ to seed database: `rails db:seed`
 to jump into Rails console: `rails c `
 
 
+## deployment
+
+database migration:
+
+`heroku run rake --trace db:migrate -a expensetracker2`
+
+seed the DB:
+
+`heroku run rake --trace db:seed -a expensetracker2`
+
+
+
+
+
 
 
 table model
