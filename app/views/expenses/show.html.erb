@@ -1,24 +1,25 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Date:</strong>
-  <%= @expense.date %>
-</p>
-
-<p>
-  <strong>Category:</strong>
-  <%= @expense.category %>
-</p>
-
-<p>
-  <strong>Detail:</strong>
-  <%= @expense.detail %>
-</p>
-
-<p>
-  <strong>Expense:</strong>
-  <%= @expense.expense %>
-</p>
-
-<%= link_to 'Edit', edit_expense_path(@expense) %> |
-<%= link_to 'Back', expenses_path %>
+<div class="jumbotron">
+  <h1 class="display-4">expense:</h1>
+  <p>
+    <strong>Date:</strong>
+    <%= @expense.date %>
+  </p>
+  <p class="lead">
+    <strong>Category:</strong>
+    <%= @expense.category %>
+  </p>
+  <p class="lead">
+    <strong>Detail:</strong>
+    <%= @expense.detail %>
+  </p>
+  <p class='lead'>
+    <strong>Expense:</strong>
+    $ <%= @expense.expense %>
+  </p>
+  <hr class="my-4">
+  <p class="lead">
+  <%= link_to 'Edit', edit_expense_path(@expense), class:'btn btn-primary' %>
+  <%= link_to 'Back', expenses_path, class:'btn btn-primary' %>
+  </p>
+</div>
