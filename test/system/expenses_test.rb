@@ -44,6 +44,6 @@ class ExpensesTest < ApplicationSystemTestCase
       click_on "Destroy", match: :first
     end
 
-    assert_text "Expense was successfully destroyed"
+    assert_text "Expense was successfully deleted"
   end
 end
