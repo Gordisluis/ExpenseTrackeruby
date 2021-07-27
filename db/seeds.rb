@@ -16,7 +16,13 @@ expense = Expense.create([
   {
     date: '07-26-2021',
     category: 'eating out',
-    detail: "Alberto's gyro",
-    expense: 28.00
+    detail: "Mardini's deli",
+    expense: 28.50
+  },
+  {
+    date: '07-25-2021',
+    category: 'coffee',
+    detail: "Peet's",
+    expense: 8.00
   }
 ])
