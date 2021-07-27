@@ -18,5 +18,3 @@ Ruby on Rails, Bootstrap, Postgres
 
 
 
-
-test

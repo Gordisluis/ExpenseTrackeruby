@@ -7,7 +7,8 @@ puts x
 
 <h1>Expenses</h1>
 
-<table class='table table-striped'>
+<div class='table-responsive'>
+<table class='table table-striped' style='table-layout:auto'>
   <thead class='thead-light'>
     <tr>
       <th>Date</th>
@@ -42,7 +43,7 @@ puts x
     </tr>
   </tbody>
 </table>
-
+</div>
 <br>
 
 <%= link_to 'New Expense', new_expense_path, class: 'btn btn-primary mb-5' %>
