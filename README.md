@@ -2,7 +2,9 @@
 
 > expense tracking app
 
-[<img src='./scrn3.png' width='250'>](https://expensetracker2.herokuapp.com/)
+[Demo>](https://expensetracker2.herokuapp.com/)
+
+[<img src='https://img.youtube.com/vi/G8bcbaUSt9M/0.jpg' width='250'](https://www.youtube.com/watch?v=G8bcbaUSt9M)
 
 ## Tech stack
 
@@ -16,7 +18,3 @@ Ruby on Rails, Bootstrap, Postgres
 
 
 
-
-
-
-test
