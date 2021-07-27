@@ -11,16 +11,3 @@
 
 Ruby on Rails, Bootstrap, Postgres
 
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 0a43c897623f605bd6c7a400422e8f1ef63cea2a
