@@ -4,6 +4,8 @@
 
 ## [demo](https://expensetracker2.herokuapp.com/)
 
+[<img src='./scrn3.png' width='250'>](https://expensetracker2.herokuapp.com/)
+
 ## instructions
 ```
 git clone https://github.com/adnjoo/ExpenseTracker
