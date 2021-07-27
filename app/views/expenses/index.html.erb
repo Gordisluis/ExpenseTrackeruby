@@ -25,9 +25,9 @@ puts x
         <td><%= expense.category %></td>
         <td><%= expense.detail %></td>
         <td>$ <%= expense.expense %></td>
-        <td><%= link_to 'Show', expense %></td>
-        <td><%= link_to 'Edit', edit_expense_path(expense) %></td>
-        <td><%= link_to 'X', expense, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', expense, class:'px-1 mx-0' %></td>
+        <td><%= link_to 'Edit', edit_expense_path(expense), class:'' %></td>
+        <td><%= link_to 'X', expense, method: :delete, data: { confirm: 'Are you sure?' }, class:'' %></td>
       </tr>
     <% end %>
     <%# last row %>
@@ -45,7 +45,7 @@ puts x
 
 <br>
 
-<%= link_to 'New Expense', new_expense_path, class: 'btn btn-primary' %>
+<%= link_to 'New Expense', new_expense_path, class: 'btn btn-primary mb-5' %>
 
 
 
