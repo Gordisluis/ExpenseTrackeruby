@@ -2,7 +2,7 @@
 
 <%=
 x = Expense.sum(:expense)
-puts x
+puts 'expense sum:', x
 %>
 
 <h1>Expenses</h1>
@@ -51,9 +51,10 @@ puts x
 
 
 
-<%=
-# z = Expense.group_by_day(:created_at).count
-a = Expense.group(:date).count
-# puts z
-puts a
+<%#=
+@expenses = Expense.order(:date)
+expenses.each do |x|
+puts x.date
+end
+# puts 'test'
 %>
