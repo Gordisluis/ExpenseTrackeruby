@@ -2,7 +2,7 @@
 
 > expense tracking app
 
-## [demo](https://expensetracker2.herokuapp.com/)
+<!-- ## [demo](https://expensetracker2.herokuapp.com/) -->
 
 [<img src='./scrn3.png' width='250'>](https://expensetracker2.herokuapp.com/)
 
